@@ -11,7 +11,7 @@ const {
 
 const MODULE_TYPE = 'css/extract-css-chunks';
 
-const pluginName = 'extract-css-chunks-webpack-plugin';
+const pluginName = 'extract-css-chunks-webpack-plugin-with-page-direction';
 
 const REGEXP_CHUNKHASH = /\[chunkhash(?::(\d+))?\]/i;
 const REGEXP_CONTENTHASH = /\[contenthash(?::(\d+))?\]/i;
