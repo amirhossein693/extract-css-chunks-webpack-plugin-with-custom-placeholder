@@ -1,7 +1,7 @@
 If you like our work, check out our Redux-based router <a href="https://github.com/faceyspacey/redux-first-router" target="_blank">redux-first-router</a> or its sucessor which, <a href="https://github.com/respond-framework/rudy" target="_blank">Rudy<a>
 
 
-# extract-css-chunks-webpack-plugin
+# extract-css-chunks-webpack-plugin-with-page-direction
 
 <p align="center">
   <a href="https://www.npmjs.com/package/extract-css-chunks-webpack-plugin">

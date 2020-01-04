@@ -16,7 +16,8 @@ const pluginName = 'extract-css-chunks-webpack-plugin';
 const REGEXP_CHUNKHASH = /\[chunkhash(?::(\d+))?\]/i;
 const REGEXP_CONTENTHASH = /\[contenthash(?::(\d+))?\]/i;
 const REGEXP_NAME = /\[name\]/i;
-const REGEXP_PLACEHOLDERS = /\[(name|id|chunkhash)\]/g;
+const REGEXP_PAGEDIR = /\[pagedir\]/i;
+const REGEXP_PLACEHOLDERS = /\[(name|id|chunkhash|pagedir)\]/g;
 const DEFAULT_FILENAME = '[name].css';
 
 class CssDependency extends webpack.Dependency {
@@ -258,6 +259,10 @@ class ExtractCssChunksPlugin {
 
           if (REGEXP_NAME.test(chunkFilename)) {
             hash.update(JSON.stringify(chunk.getChunkMaps(true).name));
+          }
+
+          if (REGEXP_PAGEDIR.test(chunkFilename)) {
+            hash.update(JSON.stringify(document.dir || 'ltr'));
           }
         }
       );
