@@ -5,12 +5,13 @@
   "license": "MIT",
   "author": "James Gillmore <james@faceyspacey.com>",
   "contributors": [
-    "Zack Jackson <zack@ScriptedAlchemy.com> (https://github.com/ScriptedAlchemy)"
+    "Zack Jackson <zack@ScriptedAlchemy.com> (https://github.com/ScriptedAlchemy)",
+    "Amirhossein Ahmadi <amirhossein693@gmail.com> (https://github.com/amirhossein693)"
   ],
-  "homepage": "http://github.com/faceyspacey/extract-css-chunks-webpack-plugin",
+  "homepage": "https://github.com/amirhossein693/extract-css-chunks-webpack-plugin-with-page-direction",
   "repository": {
     "type": "git",
-    "url": "https://github.com/faceyspacey/extract-css-chunks-webpack-plugin.git"
+    "url": "https://github.com/amirhossein693/extract-css-chunks-webpack-plugin-with-page-direction"
   },
   "config": {
     "commitizen": {
